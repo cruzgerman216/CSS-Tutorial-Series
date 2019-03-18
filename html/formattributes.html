@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab name</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Head Element Practice" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz Blog" />
+    <meta name="author" content="Gernan Cruz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <!--Value attribute-->
+    <form>Full name<input type="text" value="text box" /></form>
+    <!--Read only-->
+    <form>
+      Full name: <br />
+      <input type="text" value="German Cruz" name="fullname" readonly />
+    </form>
+
+    <!--Disabled-->
+    <!--a disabled field will not be sent it's value-->
+    <form>
+      First: <input type="text" value="German" name="first" disabled /> Last:
+      <input type="text" value="" name="last" />
+    </form>
+
+    <!--maxlength-->
+    <form>
+      First:
+      <input type="text" value="German" name="first" maxlength="10" /> Last:
+      <input type="text" value="" name="last" />
+    </form>
+
+    <!--html5-->
+    <!--autocomplete-->
+    <form autocomplete="on">
+      First:
+      <input type="text" name="fname" /> Last:
+      <input type="text" name="lname" />
+    </form>
+
+    <!--autofocus-->
+    <form autocomplete="on">
+      First:
+      <input type="text" name="fname" autofocus />
+      Last:
+      <input type="text" name="lname" />
+    </form>
+  </body>
+</html>
