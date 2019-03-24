@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(214, 200, 200);
+  color: rgb(145, 135, 135);
+}
+
+#sponge {
+  color: yellow;
+}
+
+#yu {
+  color: green;
+}
+
+#break {
+  color: rgb(73, 73, 223);
+}
+
+a {
+  text-decoration: none;
+}
