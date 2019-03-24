@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  border: solid 5px blue;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#moverightmargin {
+  margin-left: 50px;
+}
+
+#moverightpadding {
+  padding-left: 50px;
+}
+
+#both {
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+div {
+  border: solid 5px green;
+}
+
+#move {
+  padding: 5px;
+}
