@@ -1,31 +1,22 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-
-p {
+.leftm {
   border: solid 5px blue;
-
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-#moverightmargin {
   margin-left: 50px;
 }
 
-#moverightpadding {
+.leftp {
+  border: solid 5px blue;
   padding-left: 50px;
 }
 
-#both {
-  margin-left: 50px;
-  padding-left: 50px;
-}
-
-div {
+.movem {
   border: solid 5px green;
+  margin: 50px;
 }
-
-#move {
-  padding: 5px;
+.movep {
+  border: solid 5px red;
+  padding: 50px;
 }

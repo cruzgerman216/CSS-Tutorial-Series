@@ -3,20 +3,26 @@
   margin: 0;
 }
 
-#hcenter {
+h1 {
   text-align: center;
 }
 
-#hleft {
+h2 {
   text-align: left;
 }
 
-#hright {
+h3 {
   text-align: right;
 }
 
 p {
-  font-size: 40px;
-  text-align: center;
-  margin: 15px 0;
+  color: rgb(192, 173, 173);
+  text-decoration: none;
+  text-indent: 100px;
+  letter-spacing: 5px;
+  line-height: -0.9px;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
 }

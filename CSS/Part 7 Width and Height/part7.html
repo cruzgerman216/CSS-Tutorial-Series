@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Width and Height 7</title>
+    <title>Width and Height</title>
     <meta charset="UTF-8" />
     <meta name="description" content="Width height Practice" />
     <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz Blog" />
     <meta name="author" content="German Cruz" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      p,
-      div {
-        border: solid 5px red;
-      }
-      #hundred {
-        width: auto;
-        height: 100vh;
-        overflow: hidden;
-      }
-      #fifty {
-        width: 50%;
-      }
-      #twentyfive {
-        width: 25%;
-      }
-      div #height100 {
-        height: 100%;
-        border-bottom-color: blue;
-      }
-    </style>
   </head>
-  <body>
-    <!--100% Width-->
-    <div id="hundred">
-      100% width
-      <p id="height100">within div</p>
-    </div>
-    <!--50% Width-->
-    <p id="fifty">50% width</p>
-    <!--25% Width-->
-    <p id="twentyfive">25% width</p>
 
-    <!--Center a div-->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .w100 {
+      border: solid 5px green;
+    }
+    .w50 {
+      border: solid 5px green;
+      width: 50%;
+    }
+    .w25 {
+      border: solid 5px green;
+      width: 25%;
+    }
+
+    .h100vh {
+      border: solid 5px blue;
+      height: 100vh;
+      width: 50%;
+    }
+
+    .box {
+      border: solid 5px red;
+      width: 100px;
+      height: 200px;
+    }
+  </style>
+  <body>
+    <!--width-->
+    <p class="w100">Width 100%</p>
+    <p class="w50">Width 50%</p>
+    <p class="w25">Width 25%</p>
+    <!--Height-->
+    <div class="h100vh">
+      height 100%
+      <p class="box">box</p>
+      <p class="w100">Width 100%</p>
+    </div>
+    <!--Box-->
   </body>
 </html>
