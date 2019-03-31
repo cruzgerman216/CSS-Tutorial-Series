@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab name</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Head Element Practice" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz Blog" />
+    <meta name="author" content="German Cruz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="part9.css" />
+  </head>
+  <body>
+    <h1>Absolute Lengths</h1>
+    <p id="in">5 in</p>
+    <p id="cm">5 cm</p>
+    <p id="pc">5 pc</p>
+    <p id="mm">5 mm</p>
+    <p id="pt">5 pt</p>
+    <p id="px">5 px</p>
+    <h1>Relative Lengths</h1>
+    <p>Default font size</p>
+    <!--multiply's base font or inherits parent's font-->
+    <p id="em">2 em</p>
+    <div style="font-size:10px">
+      This is the parent's height
+      <div style="font-size:2em">2 em inherits parent's font</div>
+    </div>
+    <!--multiply's base font and does NOT inherits parent's font-->
+    <p id="rem">2 rem</p>
+    <div style="font-size:10px">
+      This is the parent's height
+      <div style="font-size:2rem">2 rem does not inherit parent's font</div>
+    </div>
+
+    <p id="vw150">vw at 150</p>
+    <!--different between vh and h is that
+    height will get 100% of it's container's height while vh
+will get your screen same with width and vw-->
+  </body>
+</html>
