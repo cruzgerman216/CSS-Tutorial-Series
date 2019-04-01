@@ -47,12 +47,12 @@ p {
   width: 150vh;
 }
 #vh100 {
-  height: 100%;
+  height: 100vh;
   width: 20px;
   background-color: red;
 }
 #vw100 {
-  width: 100vw;
+  width: 150vw;
   height: 100px;
   background-color: red;
 }
@@ -71,4 +71,11 @@ p {
 #testheight {
   width: 500px;
   height: 500px;
+  background-color: red;
+}
+
+#v100 {
+  background-color: green;
+  height: 100%;
+  width: 200px;
 }
