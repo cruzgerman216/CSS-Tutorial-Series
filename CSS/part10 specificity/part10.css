@@ -1,0 +1,33 @@
+h1 {
+  color: blue;
+}
+
+#header {
+  color: green;
+}
+
+#para {
+  color: green;
+}
+#para {
+  color: blue;
+}
+
+div#a {
+  background-color: yellow;
+}
+
+#a {
+  background-color: red;
+}
+div [id="a"] {
+  background-color: blue;
+}
+
+.ctest {
+  color: red;
+}
+
+#idtest {
+  color: green;
+}

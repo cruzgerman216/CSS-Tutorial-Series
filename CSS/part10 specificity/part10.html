@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Specificity Practice</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Specificity Practice" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz Blog" />
+    <meta name="author" content="German Cruz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="part10.css" />
+  </head>
+  <body>
+    <!--Calculating Specificity-->
+    <h1 id="header" style="color:red;">SpecificityHeader</h1>
+    <!--The latest id goes first-->
+    <p id="para">SpecificityHeader</p>
+
+    <!--more specific-->
+    <div id="a">More specific</div>
+
+    <!--Class beats element selectors-->
+    <h1 class="ctest">Class beats element selector</h1>
+    <!--id  beats class and element selectors-->
+    <h1 class="ctest" id="idtest">Class beats element selector</h1>
+  </body>
+</html>
