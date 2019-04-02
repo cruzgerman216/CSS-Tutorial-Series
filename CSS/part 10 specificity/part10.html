@@ -12,8 +12,9 @@
   <body>
     <!--Calculating Specificity-->
     <h1 id="header" style="color:red;">Specificity Header</h1>
+
     <!--The latest id goes first-->
-    <p id="para">Specificity Header</p>
+    <p id="para">Specificity p</p>
 
     <!--more specific-->
     <div id="a">More specific</div>
@@ -21,6 +22,13 @@
     <!--Class beats element selectors-->
     <h1 class="ctest">Class beats element selector</h1>
     <!--id  beats class and element selectors-->
-    <h1 class="ctest" id="idtest">Class beats element selector</h1>
+    <h1 class="ctest" id="idtest">IDs beats element selector and classes</h1>
   </body>
 </html>
+
+<!-- least to greater specificity
+element selectors
+classes
+ids
+inline styling
+-->
