@@ -1,16 +1,12 @@
-ul {
+ol {
   list-style-type: lower-alpha;
-}
-
-#outside {
-  list-style-position: outside;
-  width: 25%;
+  width: 500px;
 }
 
 #inside {
   list-style-position: inside;
-  width: 25%;
 }
-#gif {
-  list-style: square inside url("sqpurple.gif");
+
+#gift {
+  list-style-type: none;
 }
