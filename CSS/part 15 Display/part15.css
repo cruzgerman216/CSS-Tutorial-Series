@@ -5,6 +5,13 @@
   background-color: red;
 }
 
+.none {
+  display: none;
+}
+.display:hover .none {
+  display: block;
+}
+
 .box2 {
   display: inline-block;
   width: 49%;
