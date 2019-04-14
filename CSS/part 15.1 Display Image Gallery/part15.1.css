@@ -1,11 +1,9 @@
-img {
-  width: 24%;
-  height: 200px;
-  margin: 0.3%;
-  background-color: white;
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+img {
+  width: 24%;
+  margin: 0 0.3%;
 }
