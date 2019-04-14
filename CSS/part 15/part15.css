@@ -1,0 +1,23 @@
+.box {
+  width: 49%;
+  height: 200px;
+  display: inline-block;
+  background-color: red;
+}
+
+.box2 {
+  display: inline-block;
+  width: 49%;
+  height: 200px;
+  background-color: blue;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+}
+.box0 {
+  width: 49%;
+  height: 200px;
+  background-color: yellow;
+}
