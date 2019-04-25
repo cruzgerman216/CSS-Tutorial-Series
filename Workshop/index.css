@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+ul {
+  background-color: rgb(218, 191, 191);
+  overflow: hidden;
+  list-style-type: none;
+  position: fixed;
+  width: 100%;
+}
+li {
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+li:hover {
+  background-color: rgb(175, 151, 151);
+}
+.displaynot {
+  display: none;
+  background-color: rgb(218, 191, 191);
+  z-index: 1;
+  min-width: 100px;
+  position: fixed;
+}
+
+.displaynot a {
+  display: block;
+}
+
+.display:hover .displaynot {
+  display: block;
+}
+.displaynot a:hover {
+  background-color: rgb(175, 151, 151);
+}
