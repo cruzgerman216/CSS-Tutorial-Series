@@ -3,58 +3,61 @@
   margin: 0;
 }
 
+.container {
+  width: 50%;
+  margin: 0px auto;
+}
+
 ul {
-  background-color: rgb(204, 152, 152);
+  background-color: rgb(189, 142, 142);
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
 }
-li {
-  display: inline-block;
-}
 
-li a {
-  color: rgb(233, 222, 222);
-  padding: 14px 16px;
+h1 {
+  margin: 40px 0 0 0;
+}
+ul li {
   display: inline-block;
-  text-decoration: none;
 }
 
 #contactfloat {
   float: right;
 }
 
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
 .dropdown {
   display: none;
   position: absolute;
-  background-color: rgb(204, 152, 152);
-  min-width: 100px;
-  z-index: 1;
+  background-color: rgb(164, 164, 196);
+  min-width: 150px;
 }
 
 .dropdown a {
-  padding: 22px 16px;
-  display: block;
-}
-.drop:hover .dropdown {
   display: block;
 }
 
 .dropdown a:hover {
-  background-color: rgb(137, 137, 172);
+  background-color: rgb(116, 116, 146);
+}
+.display:hover .dropdown {
+  display: block;
 }
 
 li:hover {
-  background-color: rgb(180, 132, 132);
+  background-color: rgb(138, 105, 105);
 }
-.container {
-  width: 50%;
-  margin: 50px auto;
-}
+
 @media only screen and (max-width: 600px) {
-  li {
-    text-align: center;
+  ul li {
     display: block;
   }
   #contactfloat {
@@ -63,11 +66,13 @@ li:hover {
   .dropdown {
     position: static;
   }
+  li {
+    text-align: center;
+  }
   ul {
     position: static;
   }
   .container {
     width: 75%;
-    margin: 0px auto;
   }
 }
