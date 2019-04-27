@@ -5,40 +5,36 @@
 
 .container {
   width: 50%;
-  margin: 0px auto;
+  margin: 50px auto;
 }
-
 ul {
-  background-color: rgb(189, 142, 142);
+  background-color: rgb(201, 171, 171);
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
 }
 
-h1 {
-  margin: 40px 0 0 0;
-}
 ul li {
   display: inline-block;
 }
 
-#contactfloat {
-  float: right;
-}
-
 ul li a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px;
   display: block;
 }
 
+ul li:hover {
+  background-color: rgb(189, 157, 157);
+}
+
 .dropdown {
   display: none;
   position: absolute;
-  background-color: rgb(164, 164, 196);
-  min-width: 150px;
+  background-color: rgb(155, 155, 196);
+  width: 150px;
 }
 
 .dropdown a {
@@ -46,33 +42,36 @@ ul li a {
 }
 
 .dropdown a:hover {
-  background-color: rgb(116, 116, 146);
+  background-color: rgb(139, 139, 180);
 }
+
 .display:hover .dropdown {
   display: block;
 }
-
-li:hover {
-  background-color: rgb(138, 105, 105);
+#contactfloat {
+  float: right;
 }
 
 @media only screen and (max-width: 600px) {
   ul li {
     display: block;
+    text-align: center;
   }
+
   #contactfloat {
     float: none;
   }
+
   .dropdown {
     position: static;
+    width: 100%;
   }
-  li {
-    text-align: center;
-  }
+
   ul {
     position: static;
   }
   .container {
-    width: 75%;
+    margin: 0 auto;
+    width: 80%;
   }
 }
