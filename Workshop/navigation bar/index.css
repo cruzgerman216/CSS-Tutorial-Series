@@ -8,7 +8,7 @@
   margin: 50px auto;
 }
 ul {
-  background-color: rgb(201, 171, 171);
+  background-color: rgb(197, 155, 155);
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,28 +26,25 @@ ul li a {
   display: block;
 }
 
-ul li:hover {
-  background-color: rgb(189, 157, 157);
-}
-
 .dropdown {
   display: none;
   position: absolute;
-  background-color: rgb(155, 155, 196);
-  width: 150px;
+  background-color: rgb(155, 155, 202);
 }
-
+.dropdown:hover a {
+  background-color: rgb(148, 148, 190);
+}
 .dropdown a {
   display: block;
-}
-
-.dropdown a:hover {
-  background-color: rgb(139, 139, 180);
 }
 
 .display:hover .dropdown {
   display: block;
 }
+ul li:hover {
+  background-color: rgb(177, 136, 136);
+}
+
 #contactfloat {
   float: right;
 }
@@ -55,18 +52,13 @@ ul li:hover {
 @media only screen and (max-width: 600px) {
   ul li {
     display: block;
-    text-align: center;
   }
-
   #contactfloat {
     float: none;
   }
-
   .dropdown {
     position: static;
-    width: 100%;
   }
-
   ul {
     position: static;
   }
