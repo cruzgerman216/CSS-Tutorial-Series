@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overflow Tutorial</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This allows you to mess with the x and y of overflow"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz" />
+    <meta name="author" content="German Cruz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .scontainer {
+        width: 200px;
+        height: 200px;
+        overflow: scroll;
+        overflow-x: hidden;
+        border: 1px black solid;
+      }
+      .newcontainer {
+        width: 300px;
+        height: 200px;
+        overflow: scroll;
+        overflow-x: hidden;
+        border: 1px black solid;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Use overflow-x or overflow-y to change the scroll bar to hidden-->
+    <h1>Overflow-x: hidden</h1>
+    <div class="scontainer">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        mollis placerat nisl, ac dignissim quam consequat at. Integer id felis
+        eu ssim dolor lacinia vel. Aliquam erat volutpat. Aenean sit amet
+        accumsan arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse mollis placerat nisl, ac dignissim quam consequat at.
+        Integer id felis eu ssim dolor lacinia vel. Aliquam erat volutpat.
+        Aenean sit amet accumsan arcu.
+      </p>
+    </div>
+    <h1>List inside a container</h1>
+    <div class="scontainer">
+      <ul>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
+      </ul>
+    </div>
+    <!--What happens when you put a container inside the container with the same length?-->
+    <h1>
+      What happens when you put a container inside the container with the same
+      length?
+    </h1>
+    <div class="scontainer">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        mollis placerat nisl, ac dignissim quam consequat at. Integer id felis
+        eu ssim dolor lacinia vel. Aliquam erat volutpat. Aenean sit amet
+        accumsan arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse mollis placerat nisl, ac dignissim quam consequat at.
+        Integer id felis eu ssim dolor lacinia vel. Aliquam erat volutpat.
+        Aenean sit amet accumsan arcu.
+      </p>
+      <div class="scontainer">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          mollis placerat nisl, ac dignissim quam consequat at. Integer id felis
+          eu ssim dolor lacinia vel. Aliquam erat volutpat. Aenean sit amet
+          accumsan arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse mollis placerat nisl, ac dignissim quam consequat at.
+          Integer id felis eu ssim dolor lacinia vel. Aliquam erat volutpat.
+          Aenean sit amet accumsan arcu.
+        </p>
+      </div>
+    </div>
+
+    <!--What happens when you put a container inside the container with different containerlength?-->
+    <h1>
+      What happens when you put a container inside the container with different
+      length?
+    </h1>
+    <div class="scontainer">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        mollis placerat nisl, ac dignissim quam consequat at. Integer id felis
+        eu ssim dolor lacinia vel. Aliquam erat volutpat. Aenean sit amet
+        accumsan arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Suspendisse mollis placerat nisl, ac dignissim quam consequat at.
+        Integer id felis eu ssim dolor lacinia vel. Aliquam erat volutpat.
+        Aenean sit amet accumsan arcu.
+      </p>
+      <div class="newcontainer">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          mollis placerat nisl, ac dignissim quam consequat at. Integer id felis
+          eu ssim dolor lacinia vel. Aliquam erat volutpat. Aenean sit amet
+          accumsan arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse mollis placerat nisl, ac dignissim quam consequat at.
+          Integer id felis eu ssim dolor lacinia vel. Aliquam erat volutpat.
+          Aenean sit amet accumsan arcu.
+        </p>
+      </div>
+    </div>
+    <p>The second container will not provide an extra scroll bar</p>
+  </body>
+</html>
