@@ -19,3 +19,5 @@ console.log(imp());
 //return an object
 const obj = () => ({ object: "hey i'm an object" });
 console.log(obj().object);
+
+//Arrow functions do not have their own this or arguments
