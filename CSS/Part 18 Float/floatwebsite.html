@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tab name</title>
+    <title>Float and Clear Practice</title>
     <meta charset="UTF-8" />
     <meta name="description" content="Head Element Practice" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz Blog" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, German Cruz" />
     <meta name="author" content="German Cruz" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
@@ -13,84 +13,65 @@
         margin: 0;
         box-sizing: border-box;
       }
-      h1 {
-        background-color: rgb(168, 147, 147);
-        padding: 20px;
-        margin: 10px;
-      }
-      .navbar {
-        width: 20%;
-        display: inline-block;
-      }
-      .navbar ul li {
-        color: white;
-        padding: 10px;
-        margin-bottom: 10px;
-        background-color: rgb(102, 102, 158);
-      }
-      .rightside {
-        float: left;
-        padding: 15px;
-      }
-      .text {
-        width: 80%;
-      }
+      h1,
       .footer {
-        background-color: rgb(102, 102, 158);
-        padding: 20px 0 20px 10px;
+        background-color: rgb(129, 129, 184);
+        padding: 20px 10px;
+      }
+      .nav {
+        width: 20%;
+        float: left;
+      }
+      .right-column {
+        float: left;
+        width: 80%;
+        padding: 10px;
+      }
+      .nav ul li {
+        background-color: rgb(179, 141, 141);
+        color: white;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        text-decoration: none;
+      }
+      .nav ul li:hover {
+        background-color: rgb(122, 85, 85);
       }
       .container {
-        width: 100%;
-        overflow: auto;
+        margin: 10px;
+      }
+      .column-container {
         border: 1px solid black;
+        overflow: auto;
       }
     </style>
   </head>
   <body>
-    <h1>German's Website</h1>
     <div class="container">
-      <div class="navbar rightside">
-        <ul>
-          <li>Link 1</li>
-          <li>Link 2</li>
-          <li>Link 3</li>
-          <li>Link 4</li>
-        </ul>
+      <h1>German's Website</h1>
+      <div class="column-container">
+        <div class="nav">
+          <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h2>German's Homepage</h2>
+          <p>
+            smod tempor incididunt ut labore et dolore magna aliqua. Nibh tellus
+            molestie nunc non blandit massa enim nec. Metus aliquam eleifend mi
+            in. Nunc faucibus a pellentesque sit amet. Adipiscing vitae proin
+            sagittis nisl rhoncus mattis. Morbi enim nunc faucibus a
+            pellentesque sit amet.l
+          </p>
+        </div>
       </div>
-      <div class="text rightside">
-        <h2>Homepage</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          imperdiet, nulla et dictum interdum.. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-          interdum... Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus impe Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Phasellus imperdiet, nulla et dictum interdum.. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
-          nulla et dictum interdum... Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          imperdiet, nulla et dictum interdum.... Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-          interdum.. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus imperdiet, nulla et dictum interdum... Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
-          dictum interdum... Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Phasellus imperdiet, nulla et dictum interdum.... Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet,
-          nulla et dictum interdum.. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          imperdiet, nulla et dictum interdum... Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
-          interdum....rdiet, nulla et dictum interdum... Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
-          dictum interdum....
-        </p>
+      <div class="footer">
+        <p>Copyright GC's</p>
       </div>
-    </div>
-    <div class="footer">
-      <p>Footer Text</p>
     </div>
   </body>
 </html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab name</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .desc p {
+        background-color: grey;
+      }
+      .child > p {
+        background-color: rgb(135, 135, 185);
+      }
+      div {
+        background-color: rgb(230, 230, 129);
+      }
+      .adj + p {
+        background-color: rgb(185, 163, 135);
+      }
+      .gen ~ p {
+        background-color: rgb(206, 159, 206);
+      }
+    </style>
+  </head>
+  <body>
+    <!--The descendant selector or space get's all the chosen tags within the container-->
+    <h1>div p descendant selector</h1>
+    <p>This is a test</p>
+
+    <div class="desc">
+      <p>descendant</p>
+      <p>descendant</p>
+      <p>descendant</p>
+      <span><p>descendant inside span</p></span>
+    </div>
+    <p>This is a test this</p>
+    <p>This is a test</p>
+    <p>This is a test</p>
+    <p>This is a test</p>
+    <p>This is a test</p>
+
+    <!--The div > p get's all of it's children not grandchildren -->
+    <h1>div > p Child Selector</h1>
+    <p>This is a test</p>
+    <div class="child">
+      <p>child</p>
+      <p>child</p>
+      <p>child</p>
+      <span><p>this is a grandchild</p></span>
+    </div>
+    <p>This is a test this</p>
+    <p>This is a test</p>
+
+    <!--The div + p get's it's nearest sibling-->
+    <h1>div + p Adjacent Sibling Selector</h1>
+    <p>This is a test</p>
+    <div class="adj">
+      <p>This is a div p</p>
+      <p>This is a div p</p>
+      <p>This is a div p</p>
+      <span><p>This is a test in span</p></span>
+    </div>
+    <p>this is the sibling</p>
+    <p>This is a test</p>
+
+    <!--The div ~ p get's all of it's siblings -->
+    <h1>div ~ p is a general sibling selector</h1>
+    <p>Older sibling</p>
+    <div class="gen">
+      <p>This is a div p</p>
+      <p>This is a div p</p>
+      <p>This is a div p</p>
+      <span><p>This is a test in span</p></span>
+    </div>
+    <p>young sibling</p>
+    <p>younger sibling</p>
+  </body>
+</html>

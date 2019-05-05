@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab name</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /*The universal selector, selecting all elements on a page*/
+      * {
+        background-color: rgb(192, 161, 161);
+      }
+      /*Element type selector*/
+      p {
+        background-color: rgb(207, 207, 181);
+      }
+      /*IDs are meant for unique elements, can't be used more than once*/
+      #id {
+        background-color: orange;
+      }
+
+      .dotclass {
+        font-size: 20px;
+      }
+      /*attribute selector chooses what type of attribute an element has and whatever that 
+      is set equal to, changes the properties*/
+      input[type="text"] {
+        background-color: rgb(167, 212, 173);
+      }
+    </style>
+  </head>
+  <body>
+    <p>p tag</p>
+    <p id="id">An ID</p>
+    <p class="dotclass">A class</p>
+    <p class="dotclass">A class</p>
+
+    <input type="text" />
+  </body>
+</html>
