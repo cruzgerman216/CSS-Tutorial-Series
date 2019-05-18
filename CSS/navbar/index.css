@@ -35,3 +35,34 @@ nav label {
   border-bottom-left-radius: 20px;
   cursor: pointer;
 }
+
+nav ul {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  transition: width 0.5s, height 0.5s;
+  list-style: none;
+}
+nav input:checked ~ ul {
+  width: 200px;
+  height: 90px;
+}
+nav ul li a {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: color 0.5s, background 0.5s;
+}
+nav ul li a:hover {
+  background: #333;
+  color: white;
+}
